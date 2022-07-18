@@ -31,3 +31,18 @@ git checkout -b develop master (Switch to develop branch)
 git commit -m "" (Add to develop branch)
 
 git push -u origin develop (push to remote git develop branch)
+
+### Working in develop branch
+
+git checkout master
+
+git merge develop (merge changes done in develop branch into master branch)
+
+git push -u origin master 
+
+// Make changes in master, and need to synchronise change to develop branch
+git checkout develop
+
+git merge master (merge changes done in master branch into develop branch)
+
+git push -u origin develop
