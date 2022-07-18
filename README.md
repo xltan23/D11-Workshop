@@ -25,3 +25,9 @@ git push -u origin master
 git pull
 
 git branch -a
+
+git checkout -b develop master (Switch to develop branch)
+
+git commit -m "" (Add to develop branch)
+
+git push -u origin develop (push to remote git develop branch)
